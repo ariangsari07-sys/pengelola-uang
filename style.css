@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #d4e0ee;
+  padding: 20px;
+}
+
+.container {
+  background: rgb(167, 203, 243);
+  padding: 22px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+h2 {
+  text-align: center;
+  color: #3b6ea8;
+}
+
+label {
+  font-weight: bold;
+  color: #3b6ea8;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin: 6px 0 12px;
+  border-radius: 8px;
+  border: 1px solid #cfdff1;
+}
+
+input:focus {
+  outline: none;
+  border-color: #659ae0;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #659ae0;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #659ae0;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #dbe7f5;
+}
+
+#sisaTotal {
+  text-align: center;
+  font-weight: bold;
+  color: #2f5f9b;
+}
+
+/* kebutuhan */
+.kebutuhan-item {
+  background: #f5f9ff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+.kebutuhan-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.kebutuhan-row input {
+  flex: 1;
+}

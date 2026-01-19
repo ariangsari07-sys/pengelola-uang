@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pengelola Uang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Pengelola Uang</h2>
+
+    <label>Total Uang</label>
+    <div class="row">
+      <input type="text" id="totalUang" placeholder="Masukkan nominal uangmu" oninput="formatInput(this)">
+      <button onclick="setTotal()">Set</button>
+    </div>
+
+    <p id="sisaTotal">Sisa total: Rp 0</p>
+
+    <hr>
+
+    <label>Nama Kebutuhan</label>
+    <input type="text" id="namaKebutuhan" placeholder="Contoh: Kuota">
+
+    <label>Nominal Kebutuhan</label>
+    <input type="text" id="nominalKebutuhan" placeholder="Masukkan nominalnya" oninput="formatInput(this)">
+
+    <button class="btn-full" onclick="tambahKebutuhan()">Tambah Kebutuhan</button>
+
+    <li class="kebutuhan-item" id="templateKebutuhan" style="display:none">
+      <b class="nama"></b><br>
+      <span class="sisa"></span>
+
+      <div class="kebutuhan-row">
+        <input type="text" class="pakai" oninput="formatInput(this)">
+        <button class="btnPakai">Pakai</button>
+      </div>
+    </li>
+
+    <ul id="listKebutuhan"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
