@@ -7,6 +7,7 @@ body {
 .container {
   background: rgb(167, 203, 243);
   padding: 22px;
+  width: 100%;
   max-width: 400px;
   margin: auto;
   border-radius: 14px;
@@ -87,3 +88,4 @@ hr {
 .kebutuhan-row input {
   flex: 1;
 }
+
