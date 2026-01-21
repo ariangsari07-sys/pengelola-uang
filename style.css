@@ -1,7 +1,9 @@
-body {
+.body {
   font-family: Arial, sans-serif;
   background: #d4e0ee;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -88,6 +90,7 @@ hr {
 .kebutuhan-row input {
   flex: 1;
 }
+
 
 
 
